@@ -1,0 +1,30 @@
+# Go binaries
+*.exe
+*.dll
+*.so
+*.dylib
+lmserver
+
+# Test and coverage
+*.test
+*.out
+
+# Dependencies
+vendor/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
